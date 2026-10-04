@@ -1,0 +1,2 @@
+97d574b41ec9b6ab54d7627960e54208f38812bb6846d08054c419f53b342953  YunXiaoHe-Local-Runtime-windows-x64-20261003-r7.zip
+c2cee410a575d34ee6ad9b2a03f61afe320ba09ceed78dfa200921e652879b7c  YunXiaoHe-Local-Runtime-linux-x64-20261003-r7.tar.gz
