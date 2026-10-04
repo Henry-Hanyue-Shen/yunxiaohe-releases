@@ -1,0 +1,27 @@
+{
+  "schema": "yh.git-history-archive.v1",
+  "source_repository": "Henry-Hanyue-Shen/yunxiaohe-codex-skill",
+  "captured_on": "2026-10-04",
+  "archive": "yunxiaohe-codex-skill-history-20261004.bundle",
+  "bytes": 107758,
+  "sha256": "a8a19da9ad2cee8d7b79cdd3230d64b847b6fb7e3d4d017ae65766e04a8288fa",
+  "release_tag": "legacy-yunxiaohe-codex-skill-20261004",
+  "default_branch": "main",
+  "commit_count": 8,
+  "refs": {
+    "refs/heads/main": "905bd5c4a6246d7100eff50893cd3bf75aafdac3",
+    "refs/tags/v1.0.0": "436cfd24a2cb0e58bee015e57ecd4fd1e1db5dbc",
+    "refs/tags/v1.1.0": "4c0c0aaff65431d4bca757175013d8ec0cfb9551",
+    "refs/tags/v1.2.0": "0efa4c4eb99ecde47dd2cde9887eb063d711dc81",
+    "refs/tags/v1.2.1": "e926814bfc24bda4591db08df286a3a82787bbe7"
+  },
+  "verification": {
+    "complete_history_no_prerequisites": true,
+    "bundle_verified": true,
+    "independent_mirror_clone_fsck_passed": true,
+    "restored_refs_equal_source_refs": true,
+    "original_license": "MIT",
+    "github_releases_at_capture": 0
+  },
+  "purpose": "Historical recovery only. Current installers are in release yunxiaohe-skills-1.4.1. GitHub repository archive setting is managed separately by the owner."
+}

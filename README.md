@@ -1,4 +1,4 @@
-# 云小鹤运行时下载 / YunXiaoHe runtime downloads
+# 云小鹤下载 / YunXiaoHe downloads
 
 [中文](#中文) · [English](#english) · [官网下载与安装 / Get started](https://yh-intel.cn/releases/#data-governance)
 
@@ -8,16 +8,19 @@
 | --- | --- |
 | 新对话安装指令、账号登录、手动下载 / Copy-paste instructions, sign-in and manual downloads | [中英文安装指南 / Installation guide](docs/install.md) |
 | Windows / Linux 数据运行时 / Data runtimes | [GitHub Release](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-local-20261003-r7) |
-| 通用、数据治理、供应链 Skill / General, data and supply-chain Skills | [官网产品入口 / Product selector](https://yh-intel.cn/releases/) |
+| 通用、数据治理、供应链 Skill / General, data and supply-chain Skills | [Skill 1.4.1 下载 / Skill downloads](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-skills-1.4.1) · [官网产品入口 / Product selector](https://yh-intel.cn/releases/) |
+| DSH 与其他智能体接入 / DSH and agent integration | [客户端源码包与接入说明 / Client source and integration guide](docs/skills.md) |
 | r7 版本范围 / What r7 includes | [版本说明 / Release notes](release-notes.md) |
-| 文件校验 / Verify downloads | [SHA256SUMS.txt](SHA256SUMS.txt) |
+| 运行时校验 / Runtime checksums | [SHA256SUMS.txt](SHA256SUMS.txt) |
+| Skill 与客户端源码校验 / Skill and client source checksums | [Skill 1.4.1 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.4.1/SHA256SUMS.txt) |
+| 旧 Codex Skill 仓库历史 / Former Codex Skill repository history | [历史存档与恢复方法 / Archive and restore guide](archive/README.md) |
 
 当前安装器 / Current installer: **CLI 1.4.1** · 数据运行时 / Data runtime: **20261003-r7**。
 已安装 Skill 的用户请先更新 Skill，才能使用新的 GitHub 下载、进度显示和断点续传。
 Update an existing Skill first to get GitHub downloads, progress reporting and resume support.
 
-仓库只存放客户文档和校验文件；安装包在 Releases 附件中。私有源码、账号数据和测试记录不在这里。
-This repository holds customer documentation and checksums; binaries are Release assets. It does not contain private source, account data or internal test records.
+这里是云小鹤当前的公开发布仓库。Git 中保存说明和校验记录；Skill、公开客户端源码、运行时与历史存档分别放在 Releases 附件中。安装或升级不再需要旧 Codex Skill 仓库。私有核心源码、账号数据和内部测试记录不在这里。
+This is the current public release repository for YunXiaoHe. Git holds documentation and verification records; Skills, public client source, runtimes and historical archives are separate Release assets. Installation and updates no longer depend on the former Codex Skill repository. Private core source, account data and internal test records are not included.
 
 ## 中文
 

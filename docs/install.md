@@ -44,6 +44,7 @@ Windows 运行时是未签名的便携压缩包，不是已签名安装器。
 1. 在 https://yh-intel.cn/client/api-keys 创建自己的 **YH API key**。
    这把 key 负责 YH 账号授权，不是模型服务商 key。
 2. 下载公开 Skill：https://yh-intel.cn/releases/yunxiaohe-local/yunxiaohe-client.zip 。
+   也可使用[新发布仓库的 GitHub 下载](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.4.1/yunxiaohe-client.zip)，两处提供相同的 Skill 包。
    解压后，将其中的 `yunxiaohe-client` 文件夹安装到你的 Harness 所用的 Skill 目录。
    也可以让 Codex 按本指南下载并安装这个公开 ZIP，无需访问 GitHub 或私有仓库。
    Skill 没有出现时，重新打开 Codex。
@@ -135,6 +136,7 @@ The Windows runtime is an unsigned portable archive, not a signed installer.
 1. Create your own **YH API key** at https://yh-intel.cn/client/api-keys .
    This key authorizes your YH account; it is not your model-provider key.
 2. Download https://yh-intel.cn/releases/yunxiaohe-local/yunxiaohe-client.zip .
+   The [new release repository's GitHub download](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.4.1/yunxiaohe-client.zip) provides the same Skill package.
    Extract it and install the `yunxiaohe-client` folder in your harness's Skill
    directory. You can ask Codex to download and install this public ZIP using
    this guide; no GitHub or private-repository access is needed.
