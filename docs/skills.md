@@ -10,12 +10,12 @@
 
 | 用途 | 下载 |
 | --- | --- |
-| 通用云小鹤 Agent | [yunxiaohe-client.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yunxiaohe-client.zip) |
-| 本地表格、特征工程与建模 | [yxh-data-governance-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yxh-data-governance-skill.zip) |
-| 供应链分析与方案比较 | [yxh-supply-chain-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yxh-supply-chain-skill.zip) |
-| DSH 适配器、公开 CLI 与接入文档 | [yunxiaohe-client-source.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yunxiaohe-client-source.zip) |
+| 通用云小鹤 Agent | [yunxiaohe-client.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yunxiaohe-client.zip) |
+| 本地表格、特征工程与建模 | [yxh-data-governance-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yxh-data-governance-skill.zip) |
+| 供应链分析与方案比较 | [yxh-supply-chain-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yxh-supply-chain-skill.zip) |
+| DSH 适配器、公开 CLI 与接入文档 | [yunxiaohe-client-source.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yunxiaohe-client-source.zip) |
 
-文件摘要见 [Skill 1.5.0 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/SHA256SUMS.txt)。官网提供相同的三个 Skill 包，可在 GitHub 无法连接时使用。
+文件摘要见 [Skill 1.5.1 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/SHA256SUMS.txt)。官网提供相同的三个 Skill 包，可在 GitHub 无法连接时使用。
 
 ### 在 Codex、DSH 或其他 Harness 中使用
 

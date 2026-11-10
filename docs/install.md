@@ -1,6 +1,6 @@
 # 云小鹤本地版 / YunXiaoHe Local
 
-Official release: **CLI 1.5.0 · Windows runtime 20261018-r8 · Linux runtime 20261003-r7**
+Official release: **CLI 1.5.1 · Windows runtime 20261018-r8 · Linux runtime 20261003-r7**
 
 官网 / Official page: https://yh-intel.cn/releases/yunxiaohe-local/
 
@@ -44,7 +44,7 @@ Windows 运行时是未签名的便携压缩包，不是已签名安装器。
 1. 在 https://yh-intel.cn/client/api-keys 创建自己的 **YH API key**。
    这把 key 负责 YH 账号授权，不是模型服务商 key。
 2. 下载公开 Skill：https://yh-intel.cn/releases/yunxiaohe-local/yunxiaohe-client.zip 。
-   也可使用[新发布仓库的 GitHub 下载](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yunxiaohe-client.zip)，两处提供相同的 Skill 包。
+   也可使用[新发布仓库的 GitHub 下载](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yunxiaohe-client.zip)，两处提供相同的 Skill 包。
    解压后，将其中的 `yunxiaohe-client` 文件夹安装到你的 Harness 所用的 Skill 目录。
    也可以让 Codex 按本指南下载并安装这个公开 ZIP，无需访问 GitHub 或私有仓库。
    Skill 没有出现时，重新打开 Codex。
@@ -58,7 +58,7 @@ Windows 运行时是未签名的便携压缩包，不是已签名安装器。
 
    Windows 也可用 `py -3`，Linux 可用 `python3` 替换上述命令前缀。
    只在 `login` 的隐藏输入提示中输入 YH key，**不要把 key 发进聊天、写进命令参数或日志**。
-   CLI 1.5.0 先向官网验证账号并获取对应平台的发行清单，再从 GitHub 下载公开运行时。
+   CLI 1.5.1 先向官网验证账号并获取对应平台的发行清单，再从 GitHub 下载公开运行时。
    GitHub 连接失败时改用官网下载；YH key 不会发给 GitHub。
    安装器显示大小和速度，支持断点续传，核对大小与 SHA-256 后才安装。
    如果返回未授权，请在客户中心检查账号权限；不要使用他人的 key。
@@ -74,7 +74,7 @@ Windows 运行时是未签名的便携压缩包，不是已签名安装器。
    > 并预测 predict.csv。
 
 下载中断时，等待当前安装命令结束后重跑 `runtime install`，会接着已有进度继续。
-CLI 1.5.0 连续 30 秒没有收到数据时会重连，一次安装最多尝试 6 次；不要同时启动多个安装器。
+CLI 1.5.1 连续 30 秒没有收到数据时会重连，一次安装最多尝试 6 次；不要同时启动多个安装器。
 
 ### 单独下载数据运行时
 
@@ -113,7 +113,7 @@ https://yh-intel.cn/releases/yunxiaohe-local/client/docs/agent-integration.md
 - 根地址：`https://yh-intel.cn/client/yunxiaohe/skill/v1/`
 - `GET architecture`：账号验证后的本地执行架构，不创建远端 worker。
 - `GET runtime/releases`：已获本地下载权限的平台列表、版本、文件大小与 SHA-256。
-- `GET runtime/download/windows-x64` 或 `GET runtime/download/linux-x64`：账号验证后的下载入口；CLI 1.5.0 可请求 GitHub 公开镜像跳转。
+- `GET runtime/download/windows-x64` 或 `GET runtime/download/linux-x64`：账号验证后的下载入口；CLI 1.5.1 可请求 GitHub 公开镜像跳转。
 - API 使用 `Authorization: Bearer <YH account key>`；不接受浏览器 Cookie 代替 key。
 - 上述 API 每次请求核对账号与权限；GitHub Release 本身可公开下载，不需要 YH key。
 - CLI 每次数据操作重新检查账号；DSH 常驻数据会话在空闲满一小时后重新验证。
@@ -136,7 +136,7 @@ The Windows runtime is an unsigned portable archive, not a signed installer.
 1. Create your own **YH API key** at https://yh-intel.cn/client/api-keys .
    This key authorizes your YH account; it is not your model-provider key.
 2. Download https://yh-intel.cn/releases/yunxiaohe-local/yunxiaohe-client.zip .
-   The [new release repository's GitHub download](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.0/yunxiaohe-client.zip) provides the same Skill package.
+   The [new release repository's GitHub download](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.1/yunxiaohe-client.zip) provides the same Skill package.
    Extract it and install the `yunxiaohe-client` folder in your harness's Skill
    directory. You can ask Codex to download and install this public ZIP using
    this guide; no GitHub or private-repository access is needed.
@@ -151,7 +151,7 @@ The Windows runtime is an unsigned portable archive, not a signed installer.
 
    On Windows, `py -3` also works; on Linux, replace `python` with `python3` if needed. Enter your YH key only
    at the hidden login prompt, **never in chat, a command argument or a log**.
-   CLI 1.5.0 authenticates with the official catalog, then downloads the public
+   CLI 1.5.1 authenticates with the official catalog, then downloads the public
    platform archive from GitHub, falling back to the official site if needed.
    It never sends your YH key to GitHub. It displays progress, resumes interrupted
    transfers, and verifies archive size and SHA-256 before installation.
@@ -169,7 +169,7 @@ The Windows runtime is an unsigned portable archive, not a signed installer.
    > quality. Save the model and validation results, then predict predict.csv.
 
 If a download is interrupted, let the current command finish and rerun `runtime install`
-to continue the saved transfer. CLI 1.5.0 reconnects after 30 seconds without data,
+to continue the saved transfer. CLI 1.5.1 reconnects after 30 seconds without data,
 with up to six attempts per invocation. Run one installer at a time.
 
 ### Download the data runtime separately
@@ -215,7 +215,7 @@ Base: `https://yh-intel.cn/client/yunxiaohe/skill/v1/`
 
 - `GET architecture`: authenticated local-execution architecture; creates no remote worker.
 - `GET runtime/releases`: entitled platforms, version, size, SHA-256 and relative download path.
-- `GET runtime/download/windows-x64` or `GET runtime/download/linux-x64`: authenticated download entry; CLI 1.5.0 can request a redirect to the public GitHub mirror.
+- `GET runtime/download/windows-x64` or `GET runtime/download/linux-x64`: authenticated download entry; CLI 1.5.1 can request a redirect to the public GitHub mirror.
 - Use `Authorization: Bearer <YH account key>`; browser cookies are not API credentials.
 - These API requests recheck account, key and product access. The GitHub Release itself is public and needs no YH key.
 - The CLI rechecks access on each data operation; long-lived DSH data sessions recheck after an idle hour.
