@@ -8,14 +8,14 @@
 | --- | --- |
 | 新对话安装指令、账号登录、手动下载 / Copy-paste instructions, sign-in and manual downloads | [中英文安装指南 / Installation guide](docs/install.md) |
 | Windows / Linux 数据运行时 / Data runtimes | [GitHub Release](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-local-20261003-r7) |
-| 通用、数据治理、供应链 Skill / General, data and supply-chain Skills | [Skill 1.4.2 下载 / Skill downloads](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-skills-1.4.2) · [官网产品入口 / Product selector](https://yh-intel.cn/releases/) |
+| 通用、数据治理、供应链 Skill / General, data and supply-chain Skills | [Skill 1.4.3 下载 / Skill downloads](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-skills-1.4.3) · [官网产品入口 / Product selector](https://yh-intel.cn/releases/) |
 | DSH 与其他智能体接入 / DSH and agent integration | [客户端源码包与接入说明 / Client source and integration guide](docs/skills.md) |
 | r7 版本范围 / What r7 includes | [版本说明 / Release notes](release-notes.md) |
 | 运行时校验 / Runtime checksums | [SHA256SUMS.txt](SHA256SUMS.txt) |
-| Skill 与客户端源码校验 / Skill and client source checksums | [Skill 1.4.2 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.4.2/SHA256SUMS.txt) |
+| Skill 与客户端源码校验 / Skill and client source checksums | [Skill 1.4.3 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.4.3/SHA256SUMS.txt) |
 | 旧 Codex Skill 仓库历史 / Former Codex Skill repository history | [历史存档与恢复方法 / Archive and restore guide](archive/README.md) |
 
-当前安装器 / Current installer: **CLI 1.4.2** · 数据运行时 / Data runtime: **20261003-r7**。
+当前安装器 / Current installer: **CLI 1.4.3** · 数据运行时 / Data runtime: **20261003-r7**。
 已安装 Skill 的用户请先更新 Skill，才能使用新的 GitHub 下载、进度显示和断点续传。
 Update an existing Skill first to get GitHub downloads, progress reporting and resume support.
 
@@ -31,7 +31,7 @@ This is the current public release repository for YunXiaoHe. Git holds documenta
 | Windows x64 | [ZIP 安装包](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261003-r7/YunXiaoHe-Local-Runtime-windows-x64-20261003-r7.zip) | x64 Windows，未签名便携运行时 |
 | Linux x86_64 | [tar.gz 安装包](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261003-r7/YunXiaoHe-Local-Runtime-linux-x64-20261003-r7.tar.gz) | Ubuntu 24.04 或兼容 glibc 2.39+ 的系统 |
 
-可以按照[数据治理 Skill 指南](https://yh-intel.cn/releases/yunxiaohe-local/client/docs/data-skill.md)安装独立数据 Skill，或按本仓库的[安装指南](docs/install.md)安装通用云小鹤 Skill。CLI 1.4.2 会选择对应的运行时，优先从 GitHub 下载，显示进度并检查文件摘要。GitHub 连接失败时会改用官网下载，YH key 不会发给 GitHub。已经更新 Skill 的用户可在其目录中运行：
+可以按照[数据治理 Skill 指南](https://yh-intel.cn/releases/yunxiaohe-local/client/docs/data-skill.md)安装独立数据 Skill，或按本仓库的[安装指南](docs/install.md)安装通用云小鹤 Skill。CLI 1.4.3 会选择对应的运行时，优先从 GitHub 下载，显示进度并检查文件摘要。GitHub 连接失败时会改用官网下载，YH key 不会发给 GitHub。已经更新 Skill 的用户可在其目录中运行：
 
 ```sh
 python scripts/yxh.py login
@@ -53,7 +53,7 @@ Download the local runtime for **YunXiaoHe - Data Governance Agent**, used by Co
 
 The table above links to Windows x64 and Linux x86_64 packages. Linux requires Ubuntu 24.04 or compatible glibc 2.39+. Windows ships as an unsigned portable archive.
 
-Choose the independent [Data Governance Skill](https://yh-intel.cn/releases/yunxiaohe-local/client/docs/data-skill.md#english) or follow this repository's [installation guide](docs/install.md) for the general YunXiaoHe Skill. After updating the Skill, run the three commands above from its directory. CLI 1.4.2 selects the runtime, downloads from GitHub first with official-site fallback, and verifies its checksum. Your YH key is never sent to GitHub. Your harness keeps its model-provider key and makes model calls directly; computation runs on your computer.
+Choose the independent [Data Governance Skill](https://yh-intel.cn/releases/yunxiaohe-local/client/docs/data-skill.md#english) or follow this repository's [installation guide](docs/install.md) for the general YunXiaoHe Skill. After updating the Skill, run the three commands above from its directory. CLI 1.4.3 selects the runtime, downloads from GitHub first with official-site fallback, and verifies its checksum. Your YH key is never sent to GitHub. Your harness keeps its model-provider key and makes model calls directly; computation runs on your computer.
 
 For manual downloads, verify [SHA256SUMS.txt](SHA256SUMS.txt), extract the archive and run `yxh-runtime.exe login` on Windows or `./yxh-runtime login` on Linux. Read-only `doctor` works without signing in; data operations and model reuse check your YH account first.
 
