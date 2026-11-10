@@ -1,6 +1,6 @@
 # 云小鹤本地版 / YunXiaoHe Local
 
-Official release: **CLI 1.4.2 · runtime 20261003-r7**
+Official release: **CLI 1.4.2 · Windows runtime 20261018-r8 · Linux runtime 20261003-r7**
 
 官网 / Official page: https://yh-intel.cn/releases/yunxiaohe-local/
 
@@ -78,8 +78,8 @@ CLI 1.4.2 连续 30 秒没有收到数据时会重连，一次安装最多尝试
 
 ### 单独下载数据运行时
 
-也可以直接从 [GitHub Release](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-local-20261003-r7)
-下载 Windows ZIP 或 Linux tar.gz，无需 GitHub 或 YH 登录。
+也可以直接下载 [Windows r8 ZIP](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261018-r8/YunXiaoHe-Local-Runtime-windows-x64-20261018-r8.zip)
+或 [Linux r7 tar.gz](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261003-r7/YunXiaoHe-Local-Runtime-linux-x64-20261003-r7.tar.gz)，无需 GitHub 或 YH 登录。
 按 Release 内的 `SHA256SUMS.txt` 校验并解压后，运行 `yxh-runtime.exe login`（Windows）
 或 `./yxh-runtime login`（Linux），输入自己的 YH key。下载不等于开通使用权限。
 这个 Release 提供数据计算运行时，不包含桌面 GUI 或供应链原生安装包。
@@ -174,8 +174,8 @@ with up to six attempts per invocation. Run one installer at a time.
 
 ### Download the data runtime separately
 
-The [GitHub Release](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-local-20261003-r7)
-provides Windows ZIP and Linux tar.gz downloads without GitHub or YH sign-in.
+Download the [Windows r8 ZIP](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261018-r8/YunXiaoHe-Local-Runtime-windows-x64-20261018-r8.zip)
+or [Linux r7 tar.gz](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-local-20261003-r7/YunXiaoHe-Local-Runtime-linux-x64-20261003-r7.tar.gz) without GitHub or YH sign-in.
 Verify `SHA256SUMS.txt`, extract the archive, then run `yxh-runtime.exe login`
 (Windows) or `./yxh-runtime login` (Linux) with your own YH key. Downloading does
 not grant product access. These are data-computation runtimes, not desktop GUI
