@@ -10,12 +10,12 @@
 
 | 用途 | 下载 |
 | --- | --- |
-| 通用云小鹤 Agent | [yunxiaohe-client.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.6/yunxiaohe-client.zip) |
-| 本地表格、特征工程与建模 | [yxh-data-governance-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.6/yxh-data-governance-skill.zip) |
-| 供应链分析与方案比较 | [yxh-supply-chain-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.6/yxh-supply-chain-skill.zip) |
-| DSH 适配器、公开 CLI 与接入文档 | [yunxiaohe-client-source.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.6/yunxiaohe-client-source.zip) |
+| 通用云小鹤 Agent | [yunxiaohe-client.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-client-1.5.8/yunxiaohe-client.zip) |
+| 本地表格、特征工程与建模 | [yxh-data-governance-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yxh-data-governance-1.5.8/yxh-data-governance-skill.zip) |
+| 供应链分析与方案比较 | [yxh-supply-chain-skill.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yxh-supply-chain-1.5.8/yxh-supply-chain-skill.zip) |
+| DSH 适配器、公开 CLI 与接入文档 | [yunxiaohe-client-source.zip](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-client-1.5.8/yunxiaohe-client-source.zip) |
 
-文件摘要见 [Skill 1.5.6 SHA256SUMS.txt](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/download/yunxiaohe-skills-1.5.6/SHA256SUMS.txt)。官网提供相同的三个 Skill 包，可在 GitHub 无法连接时使用。
+三个包各自发布、各有版本号，文件摘要在各自 Release 的 SHA256SUMS.txt 里：[通用 / general 1.5.8](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yunxiaohe-client-1.5.8) · [数据治理 / data 1.5.8](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yxh-data-governance-1.5.8) · [供应链 / supply chain 1.5.8](https://github.com/Henry-Hanyue-Shen/yunxiaohe-releases/releases/tag/yxh-supply-chain-1.5.8)。官网提供相同的三个 Skill 包，可在 GitHub 无法连接时使用。
 
 ### 在 Codex、DSH 或其他 Harness 中使用
 
